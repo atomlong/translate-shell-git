@@ -14,13 +14,14 @@ makedepends=(git)
 optdepends=(
 	'fribidi: display right-to-left languages'
 	'mplayer: Text-to-Speech functionality'
-	'mplayer2: Text-to-Speech functionality'
 	'mpv: Text-to-Speech functionality'
 	'mpg123: Text-to-Speech functionality'
 	'espeak: Text-to-Speech functionality'
 	'rlwrap: readline-style editing and history in the interactive mode'
 	'emacs: Emacs interface'
 )
+optdepends_i686=('mplayer2: Text-to-Speech functionality')
+optdepends_x86_64=('mplayer2: Text-to-Speech functionality')
 conflicts=(translate-shell)
 provides=(translate-shell)
 source=('git+https://github.com/soimort/translate-shell.git')

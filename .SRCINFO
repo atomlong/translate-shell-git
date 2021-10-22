@@ -11,7 +11,6 @@ pkgbase = translate-shell-git
 	depends = bash
 	optdepends = fribidi: display right-to-left languages
 	optdepends = mplayer: Text-to-Speech functionality
-	optdepends = mplayer2: Text-to-Speech functionality
 	optdepends = mpv: Text-to-Speech functionality
 	optdepends = mpg123: Text-to-Speech functionality
 	optdepends = espeak: Text-to-Speech functionality
@@ -21,6 +20,7 @@ pkgbase = translate-shell-git
 	conflicts = translate-shell
 	source = git+https://github.com/soimort/translate-shell.git
 	md5sums = SKIP
+	optdepends_i686 = mplayer2: Text-to-Speech functionality
+	optdepends_x86_64 = mplayer2: Text-to-Speech functionality
 
 pkgname = translate-shell-git
-
